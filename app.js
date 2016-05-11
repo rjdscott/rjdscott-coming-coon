@@ -1,7 +1,7 @@
 
 // require modules //
 var express = require('express');
-var morgan = require('morgan');
+//var morgan = require('morgan');
 
 // set IP parameters //
 var hostname = 'localhost';
@@ -11,7 +11,7 @@ var port = 3000;
 var app = express();
 
 // setting app to use morgan as middleware //
-app.use(morgan('dev'));
+// app.use(morgan('dev'));
 
 // make use of serve static from express module //
 // dirname makes sure it calls the public dir from within active dir //
