@@ -1,0 +1,23 @@
+{
+  "name": "node-express",
+  "version": "1.0.0",
+  "description": "express with node",
+  "main": "server-1.js",
+  "dependencies": {
+    "express": "^4.13.4",
+    "morgan": "^1.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "rhttps://github.com/rjdscott/rjdscott-coming-coon.git"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "rjdscott",
+  "license": "ISC"
+}
