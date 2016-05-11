@@ -4,7 +4,7 @@ var express = require('express');
 
 // set IP parameters //
 var hostname = 'localhost';
-var port = 8080;
+var port = process.env.PORT || 8080;
 
 // create express app//
 var app = express();
