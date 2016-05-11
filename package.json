@@ -1,22 +1,12 @@
 {
-  "name": "node-express",
-  "version": "1.0.0",
-  "description": "express with node",
-  "main": "server-1.js",
-  "dependencies": {
-    "express": "^4.13.4",
-  },
-  "devDependencies": {},
+  "name": "rjdscott-coming-coon",
+  "description": "Our sample Node to Heroku app",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "rhttps://github.com/rjdscott/rjdscott-coming-coon.git"
-  },
-  "keywords": [
-    "express"
-  ],
-  "author": "rjdscott",
-  "license": "ISC"
+  "dependencies": {
+    "ejs": "~1.0.0",
+    "express": "~4.9.8"
+  }
 }
