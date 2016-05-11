@@ -1,20 +1,21 @@
-
-// require modules //
 var express = require('express');
-
-// set IP parameters //
-var hostname = 'localhost';
-var port = process.env.PORT || 8080;
-
-// create express app//
 var app = express();
 
-// make use of serve static from express module //
-// dirname makes sure it calls the public dir from within active dir //
+// set the port of our application
+// process.env.PORT lets the port be set by Heroku
+var port = process.env.PORT || 8080;
+
+
+// make express look in the public directory for assets (css/js/img)
 app.use(express.static(__dirname + '/public'));
 
-// start server with express //
-app.listen(port, hostname, function(){
-	console.log(`Server running at http://${hostname}:${port}/`);
+// set the home page route
+app.get('/', function(req, res) {
+
+    // ejs render automatically looks in the views folder
+    res.render('index');
 });
 
+app.listen(port, function() {
+    console.log('Our app is running on http://localhost:' + port);
+});
