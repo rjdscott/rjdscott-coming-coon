@@ -6,11 +6,8 @@
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
 html {
-<<<<<<< HEAD
-    font-family: verdana;
-=======
-    font-family: sans-serif;
->>>>>>> 4a902433302f57057462c4e1800567bf871920e1
+    font-family: verdana, Helvetica;
+
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%
 }
@@ -110,11 +107,8 @@ code,
 kbd,
 pre,
 samp {
-<<<<<<< HEAD
     font-family: verdana, monospace;
-=======
-    font-family: monospace, monospace;
->>>>>>> 4a902433302f57057462c4e1800567bf871920e1
+
     font-size: 1em
 }
 button,
@@ -1088,11 +1082,8 @@ html {
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
 }
 body {
-<<<<<<< HEAD
+
     font-family: verdana, "Helvetica Neue", Helvetica, Arial, sans-serif;
-=======
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
->>>>>>> 4a902433302f57057462c4e1800567bf871920e1
     font-size: 14px;
     line-height: 1.42857143;
     color: #333;
@@ -1131,13 +1122,10 @@ img {
 .img-responsive,
 .thumbnail a>img,
 .thumbnail>img {
-<<<<<<< HEAD
+
     display: inline;
     max-width: 50%;
-=======
-    display: block;
-    max-width: 100%;
->>>>>>> 4a902433302f57057462c4e1800567bf871920e1
+
     height: auto
 }
 .img-rounded {
@@ -1547,11 +1535,8 @@ code,
 kbd,
 pre,
 samp {
-<<<<<<< HEAD
     font-family: verdana, Menlo, Monaco, Consolas, "Courier New", monospace
-=======
-    font-family: Menlo, Monaco, Consolas, "Courier New", monospace
->>>>>>> 4a902433302f57057462c4e1800567bf871920e1
+
 }
 code {
     padding: 2px 4px;
